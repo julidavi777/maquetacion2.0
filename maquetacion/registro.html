@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="CSS/inicio.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <ul>
+            
+            <li><a href="">Iniciar sesión</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Inicio</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <div class="Iniciar">
+        <center>
+        <h1>Registrate aqui</h1>
+        <form action="">
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido">
+            <br>
+            <input type="email" name="mail" id="Mail" required placeholder="Correo Electrónico">
+            <input type="password" name="password" required id="password" placeholder="Contraseña">
+            <br>
+            <input class="input100"  type="date" name="nacimientotitular" placeholder="Fecha de Nacimiento" onclick="ocultarError();" onfocus="(this.type='date')" onblur="(this.type='text')">
+            <br>
+        
+        <div >
+            <input type="checkbox" name="check-box" id="check-box">       
+            <label for="check-box" id="cond">Acepta los terminos y condiciones</label>
+            
+            <button type="submit" id="sign">Registrar</button>
+        
+        </div>
+    </center>
+        </form>
+    </div>
+
+</body>
+</html>
